@@ -12,4 +12,6 @@ jsonは必ず{"key": "value"}の形式とする。valueの先頭に@がある場
 
 ## コマンド例
 
+```bash
 render -input '{"style": "@./sample/guidelines.md", "purpose": "IPv6オンリーのVPCを作りたい"}' -template ./sample/prompt.tpl
+```
